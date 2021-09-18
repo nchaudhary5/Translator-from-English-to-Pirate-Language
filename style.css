@@ -1,0 +1,74 @@
+
+* { 
+	box-sizing : border-box;
+	margin : 0;
+	padding: 0;
+}
+
+.topheader {
+	text-align: center;
+	font-family: cursive;
+	background-color: yellow;
+	padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+ 	
+}
+
+.topheader h1{
+
+	text-align : center;	
+	color : teal;
+	font-size: 30px;
+	
+}
+
+.display{
+	padding-top: 7px;
+	
+	font-family: cursive;
+	 
+	text-align: center;
+}
+
+#inputArea {
+	width: 55vw;  
+	font-size: 15px;  
+}
+
+#outputArea {
+	width: 55vw;
+	font-size: 15px;
+}
+
+
+.box {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.languageName{
+	position: relative;
+	font-size: 30px;
+	font-family: cursive;
+	
+}
+
+
+#translate_button{
+	background-color: orange;
+	color: black;
+	padding: 10px;
+	border-radius: 10%;
+	border: 1px solid black;
+	font-family: cursive;
+	display: block;
+    margin : auto;	
+}
+
+
+
+#translate_button:hover{
+	background-color: green;
+}

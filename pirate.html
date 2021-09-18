@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title> Assignment 2 Pirate</title>
+</head>
+<body>
+	<div class = "topheader">
+	
+		<h1>Welcome to the Pirate World!</h1>
+	</div>
+
+	<h2 class="display">Translate in Context from English to Pirate Language. </h2>
+
+	<div class="box">
+		<h3 class = "languageName">English</h3>
+		<textarea id = "inputArea"  cols="50" rows ="10"></textarea>
+		<h3 class = "languageName">Pirate Translation</h3>
+		<textarea id= "outputArea" cols="500" rows="10" readonly></textarea>
+	</div>
+
+	<button id = "translate_button" type="button" onclick="translateSpeak()">Translate</button>
+
+	<script src="piratejava.js"></script>
+	<script type = "text/javascript">
+		var input = document.getElementById("inputArea");
+		var output = document.getElementById("outputArea");
+		function translateSpeak(){
+			output.value = Translate(input.value);
+		}
+	</script>
+</body>
+</html>
+
+
